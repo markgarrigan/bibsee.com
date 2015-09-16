@@ -1,0 +1,224 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: helvetica, sans-serif;
+}
+
+body > div > div {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 30px 40px 0;
+  position: relative;
+}
+
+#top {
+  height: 788px;
+  max-height: 788px;
+  background: url(dirt.jpg) no-repeat center top;
+}
+
+#top span:first-child {
+  display: block;
+}
+
+#top span:first-child a:first-child {
+  float: left;
+  display: block;
+  width: 172px;
+  height: 54px;
+  background: url(darkBibsee.png) no-repeat center center;
+  text-indent: -12000px;
+  text-decoration: none;
+}
+#top span:first-child a:last-child {
+  float: right;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 18px;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  transform: scale(1);
+}
+
+#top span:first-child a:last-child:hover {
+  transform: scale(1.04);
+  text-shadow: 0 0 45px rgba(0,0,0,.5);
+}
+
+h1 {
+  font-size: 54px;
+  max-width: 425px;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 115px;
+  margin-bottom: 0;
+  clear: both;
+}
+
+h1 + p {
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 340px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+h1 + p + span {
+  display: block;
+}
+
+h1 + p + span a:first-child {
+  background-color: #41B9FF;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 70px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+h1 + p + span a:last-child {
+  background-color: rgba(78,37,11,.26);
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 18px;
+}
+
+#mobile {
+  min-height: 415px;
+}
+
+#mobile img {
+  position: absolute;
+  top: -145px;
+  left: 0;
+  z-index: 5;
+}
+
+#mobile h2,
+#bib h2 {
+  margin-top: 30px;
+  margin-left: 350px;
+  margin-bottom: 0;
+  font-size: 54px;
+  text-transform: uppercase;
+  max-width: 375px;
+  color: #391006;
+}
+
+#mobile h2 + p,
+#bib h2 + p {
+  margin-left: 350px;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  color: #391006;
+}
+
+
+#mobile h2 + p + span,
+#bib h2 + p + span {
+  display: block;
+}
+
+#mobile h2 + p + span a:first-child,
+#bib h2 + p + span a:first-child {
+  background-color: #41B9FF;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 70px;
+  font-size: 18px;
+  margin-left: 350px;
+}
+
+#bib {
+  min-height: 430px;
+  margin-top: 90px;
+}
+
+#bib h2 {
+  max-width: 360px;
+  margin-left: 0;
+}
+
+#bib h2 + p {
+  margin-left: 0;
+  max-width: 475px;
+}
+
+#bib h2 + p + span a:first-child {
+  margin-left: 0;
+}
+
+#bib img {
+  position: absolute;
+  top: 0;
+  left: 530px;
+}
+
+#trr {
+  margin-top: 70px;
+  background-color: #111C0E;
+  background-image: url(trr.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 725px;
+  max-height: 725px;
+  height: 725px;
+}
+
+#trr h2 {
+  font-size: 54px;
+  max-width: 370px;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 190px;
+  margin-bottom: 0;
+}
+
+#trr h2 + p {
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#trr h2 + p + span {
+  display: block;
+}
+
+#trr h2 + p + span a:first-child {
+  background-color: #41B9FF;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 70px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+#trr h2,
+#trr h2 + p,
+#trr h2 + p + span {
+  margin-left: 540px;
+}
+
+.cf:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .cf             { zoom: 1; } /* IE6 */
+*:first-child+html .cf { zoom: 1; } /* IE7 */
