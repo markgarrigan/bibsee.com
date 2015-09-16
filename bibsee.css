@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: helvetica, sans-serif;
+  font-family: 'Open Sans', helvetica, sans-serif;
 }
 
 body > div > div {
@@ -38,7 +38,8 @@ body > div > div {
   color: white;
   text-decoration: none;
   font-size: 18px;
-  margin-top: 18px;
+  font-weight: 300;
+  margin-top: 16px;
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -o-transition: all .2s linear;
@@ -52,7 +53,8 @@ body > div > div {
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 58px;
+  line-height: 58px;
   max-width: 425px;
   text-transform: uppercase;
   color: white;
@@ -63,6 +65,7 @@ h1 {
 
 h1 + p {
   font-size: 18px;
+  font-weight: 300;
   line-height: 28px;
   max-width: 340px;
   color: white;
@@ -108,9 +111,10 @@ h1 + p + span a:last-child {
   margin-top: 30px;
   margin-left: 350px;
   margin-bottom: 0;
-  font-size: 54px;
+  font-size: 58px;
+  line-height: 58px;
   text-transform: uppercase;
-  max-width: 375px;
+  max-width: 390px;
   color: #391006;
 }
 
@@ -118,6 +122,7 @@ h1 + p + span a:last-child {
 #bib h2 + p {
   margin-left: 350px;
   font-size: 18px;
+  font-weight: 300;
   line-height: 28px;
   margin-bottom: 30px;
   color: #391006;
@@ -146,7 +151,7 @@ h1 + p + span a:last-child {
 }
 
 #bib h2 {
-  max-width: 360px;
+  max-width: 385px;
   margin-left: 0;
 }
 
@@ -177,7 +182,8 @@ h1 + p + span a:last-child {
 }
 
 #trr h2 {
-  font-size: 54px;
+  font-size: 58px;
+  line-height: 58px;
   max-width: 390px;
   text-transform: uppercase;
   color: white;
@@ -187,6 +193,7 @@ h1 + p + span a:last-child {
 
 #trr h2 + p {
   font-size: 18px;
+  font-weight: 300;
   line-height: 28px;
   color: white;
   margin-bottom: 30px;
