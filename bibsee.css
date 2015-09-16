@@ -212,6 +212,12 @@ h1 + p + span a:last-child {
   margin-left: 540px;
 }
 
+@media (max-width: 1000px) {
+  body > div > div {
+    overflow: hidden;
+  }
+}
+
 .cf:after {
 	visibility: hidden;
 	display: block;
