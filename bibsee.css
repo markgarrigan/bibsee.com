@@ -213,7 +213,7 @@ h1 + p + span a:last-child {
 }
 
 @media (max-width: 1000px) {
-  body > div > div {
+  #bib {
     overflow-x: hidden;
   }
 }
