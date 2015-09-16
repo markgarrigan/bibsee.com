@@ -189,6 +189,7 @@ h1 + p + span a:last-child {
   color: white;
   margin-top: 190px;
   margin-bottom: 0;
+  text-shadow: 0 0 40px black;
 }
 
 #trr h2 + p {
@@ -197,6 +198,9 @@ h1 + p + span a:last-child {
   line-height: 28px;
   color: white;
   margin-bottom: 30px;
+  text-shadow: 0 0 6px black;
+  position: relative;
+  z-index: 5;
 }
 
 #trr h2 + p + span {
@@ -211,6 +215,7 @@ h1 + p + span a:last-child {
   padding: 12px 70px;
   font-size: 18px;
   margin-right: 20px;
+  box-shadow: 0 0 100px black;
 }
 
 #trr h2,
